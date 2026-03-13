@@ -230,7 +230,7 @@
   .button__save {
     flex-direction: column;
     min-width: 306px;
-    min-height: 91px;
+    min-height: 86px;
   }
   .floppy {
     inline-size: 28px;
