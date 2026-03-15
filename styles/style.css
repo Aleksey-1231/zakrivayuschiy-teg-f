@@ -98,6 +98,7 @@
   padding: 25px 25px 25px;
   font-size: 18px;
   border-top: var(--border);
+  line-height: 21px;
 }
 .card__button {
   display: flex;
@@ -127,6 +128,7 @@
   overflow: hidden;
   line-height: 21px;
   transition: box-shadow 0.3s ease;
+  border: var(--border);
 }
 .button:hover {
   cursor: pointer;
@@ -164,7 +166,7 @@
   outline: none;
 }
 .card__icon-button:focus-visible {
-  border: 2px solid var(--color-text);
+  border: var(--border);
 }
 .card__icon-button::before {
   content: none;
@@ -172,7 +174,6 @@
 .card__like-button {
   min-width: 130px;
   min-height: 38px;
-  border: var(--border);
   background: transparent;
 }
 .button__save {
